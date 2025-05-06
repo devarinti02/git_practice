@@ -1,0 +1,11 @@
+name : gitactions_practice
+
+on: workflow_dispatch
+
+jobs:
+  demo:
+   runs-on: ubuntu-latest
+
+   steps:
+   - name: step1
+      run : echo "hello"
