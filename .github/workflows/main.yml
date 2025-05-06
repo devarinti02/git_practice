@@ -7,6 +7,6 @@ jobs:
   demo:
     runs-on: ubuntu-latest
 
-    steps:
+  steps:
       - name: step1
         run: echo "hello"
